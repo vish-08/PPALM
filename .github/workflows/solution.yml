@@ -3,7 +3,7 @@ On:
   Push:
     Paths:
       -contens/**
-  Workflow_dispatch
+  Workflow_dispatch:
 Jobs:
   build:
     runs-on: windows-latest
@@ -16,7 +16,7 @@ Jobs:
           solution-type: Both
       - uses: actions/upload-artifact@v2
       - with: 
-      
+
         name: Packed-solution
         path: out/
   
