@@ -12,7 +12,7 @@ Jobs:
       - uses: microsoft/powerplatform-actions/pack-solution@v0
         with: 
           solution-file: out/contoso_univrsity_core.zip
-          solution-folder: contens
+          solution-folder: contents
           solution-type: Both
       - uses: actions/upload-artifact@v2
       - with: 
