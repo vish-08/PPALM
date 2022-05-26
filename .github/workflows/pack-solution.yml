@@ -1,12 +1,12 @@
 name: Pack Contoso_University_Core
 
-On: 
-  Push:
-    Paths:
-      -contents/**
-  Workflow_dispatch:
-  
-Jobs:
+on: 
+  push:
+    paths:
+      - contents/**
+  workflow_dispatch:
+
+jobs:
   build:
     runs-on: windows-latest
     steps: 
