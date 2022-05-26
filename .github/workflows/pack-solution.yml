@@ -16,5 +16,5 @@ Jobs:
           solution-type: Both
       - uses: actions/upload-artifact@v2
       - with: 
-        name: Packed-solution
+        name: packed-solution
         path: out/
