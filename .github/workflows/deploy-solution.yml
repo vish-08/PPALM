@@ -12,7 +12,7 @@ on:
   
       - completed
   
-  Workflow_dispatch:
+  workflow_dispatch:
 
 
 jobs:
