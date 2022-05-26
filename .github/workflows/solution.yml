@@ -18,4 +18,3 @@ Jobs:
       - with: 
         name: Packed-solution
         path: out/
-
