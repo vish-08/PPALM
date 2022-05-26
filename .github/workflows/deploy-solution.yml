@@ -37,7 +37,7 @@ jobs:
 
         with:
 
-          environment-url: https://orgd1ec5a9d.crm11.dynamics.com/
+          environment-url: https://orgd1ec5a9d.crm11.dynamics.com
 
           user-name: ${{secrets.USERNAME}}
 
